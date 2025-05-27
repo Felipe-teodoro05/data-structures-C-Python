@@ -1,0 +1,29 @@
+# Arquivos compilados e de objeto do C
+*.o
+*.out
+*.exe
+*.dll
+*.so
+
+# Pasta de build (se usar CMake ou similar)
+build/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Arquivos de IDEs (exemplo para VS Code)
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+pip-freeze.txt
+*.egg-info/
+.ipynb_checkpoints
