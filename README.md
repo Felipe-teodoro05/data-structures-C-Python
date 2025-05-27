@@ -12,9 +12,9 @@ Este repositório é dedicado a demonstrar a implementação e o funcionamento d
 ## 📁 Estrutura de Pastas
 
 O repositório está organizado da seguinte maneira para facilitar a navegação, refletindo os tópicos de estudo:
-
+```
 .
-├── C/                          # Contém todas as implementações em C++
+├── C++/                          # Contém todas as implementações em C++
 │   ├── Árvores/                  # Implementações de diferentes tipos de árvores
 │   │   ├── Arvore_Binaria.cpp
 │   │   ├── Arvore_AVL.cpp
@@ -38,15 +38,14 @@ O repositório está organizado da seguinte maneira para facilitar a navegação
 │   ├── Ordenação/                # Algoritmos de ordenação
 │   │   ├── bubble_Sort.cpp
 │   │   ├── Insertion_Sort.cpp
-│   │   └── Ordenacao_Direta.cpp  # Renomeado para consistência
+│   │   └── Ordenacao_Direta.cpp
 │   └── Pilhas/                   # Implementações de pilhas (Stack)
 │       └── Pilha.cpp
 ├── Python/                       # Contém todas as implementações em Python (Em breve!)
 │   └── ...
-├── docs/                         # Documentação adicional (ex: PDF do professor)
-│   └── nome_do_arquivo.pdf
 ├── .gitignore                    # Especifica arquivos e pastas ignorados pelo Git
 └── README.md                     # Este arquivo que você está lendo :)
+```
 
 
 ## 🛠️ Estruturas de Dados e Algoritmos (Conteúdo em `/C++`)
@@ -60,12 +59,12 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
 * [ ] Lista Circular (Simples/Dupla)
 
 ### `C++/Pilhas/` (Stack)
-* [✅] Pilha (Implementação Genérica em `Pilha.cpp` - *especificar se baseada em array ou lista, ou ambas*)
+* [✅] Pilha (Implementação Genérica em `Pilha.cpp`)
     * [ ] Implementação com Array
     * [ ] Implementação com Lista Encadeada
 
 ### `C++/Filas/` (Queue)
-* [✅] Fila Simples (`fila_simples.cpp` - *especificar se baseada em array ou lista*)
+* [✅] Fila Simples (`fila_simples.cpp`)
 * [✅] Deque (Double-Ended Queue) (`Deque.cpp`)
 * [ ] Fila de Prioridade (Heap)
 
