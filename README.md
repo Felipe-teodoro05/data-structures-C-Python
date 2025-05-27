@@ -14,11 +14,11 @@ Este repositório é dedicado a demonstrar a implementação e o funcionamento d
 O repositório está organizado da seguinte maneira para facilitar a navegação, refletindo os tópicos de estudo:
 
 .
-├── C/                            # Contém todas as implementações em C
+├── C/                          # Contém todas as implementações em C++
 │   ├── Árvores/                  # Implementações de diferentes tipos de árvores
 │   │   ├── Arvore_Binaria.cpp
 │   │   ├── Arvore_AVL.cpp
-|   |   ├── Arvore_Busc.cpp   
+│   │   ├── Arvore_Busc.cpp
 │   │   └── Arvore_RN.cpp
 │   ├── Busca/                    # Algoritmos de busca
 │   │   ├── busca_sequencial.cpp
@@ -28,21 +28,23 @@ O repositório está organizado da seguinte maneira para facilitar a navegação
 │   │   └── Deque.cpp
 │   ├── Grafos/                   # Implementações de grafos e seus algoritmos
 │   │   └── Grafo.cpp
-│   ├── Intro/                    # Códigos introdutórios, exemplos básicos de C ou conceitos gerais
+│   ├── Intro/                    # Códigos introdutórios, exemplos básicos ou conceitos gerais
 │   │   ├── Multi_Matriz.cpp
-|   |   ├── Transpor_Matriz.cpp   
+│   │   ├── Transpor_Matriz.cpp
 │   │   └── Vetores.cpp
 │   ├── Listas/                   # Implementações de diferentes tipos de listas
-│   │   ├── lista duplamente encadeada.cpp
-│   │   ├── lista encadeamento simples.cpp
+│   │   ├── lista_duplamente_encadeada.cpp
+│   │   └── lista_encadeada_simples.cpp
 │   ├── Ordenação/                # Algoritmos de ordenação
-│   │   ├── bubble_Sort.c
-│   │   ├── Insertion_Sort.c
-│   │   └── Ordenação Direta.cpp
+│   │   ├── bubble_Sort.cpp
+│   │   ├── Insertion_Sort.cpp
+│   │   └── Ordenacao_Direta.cpp  # Renomeado para consistência
 │   └── Pilhas/                   # Implementações de pilhas (Stack)
-│       ├── Pilha.cpp
+│       └── Pilha.cpp
 ├── Python/                       # Contém todas as implementações em Python (Em breve!)
 │   └── ...
+├── docs/                         # Documentação adicional (ex: PDF do professor)
+│   └── nome_do_arquivo.pdf
 ├── .gitignore                    # Especifica arquivos e pastas ignorados pelo Git
 └── README.md                     # Este arquivo que você está lendo :)
 
@@ -53,30 +55,30 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
 
 ### `C++/Listas/`
 * [ ] Lista Sequencial (Array)
-* [x] Lista Encadeada Simples (`lista_encadeamento_simples.cpp`)
-* [x] Lista Duplamente Encadeada (`lista_duplamente_encadeada.cpp`)
+* [✅] Lista Encadeada Simples (`lista_encadeamento_simples.cpp`)
+* [✅] Lista Duplamente Encadeada (`lista_duplamente_encadeada.cpp`)
 * [ ] Lista Circular (Simples/Dupla)
 
 ### `C++/Pilhas/` (Stack)
-* [x] Pilha (Implementação Genérica em `Pilha.cpp` - *especificar se baseada em array ou lista, ou ambas*)
+* [✅] Pilha (Implementação Genérica em `Pilha.cpp` - *especificar se baseada em array ou lista, ou ambas*)
     * [ ] Implementação com Array
     * [ ] Implementação com Lista Encadeada
 
 ### `C++/Filas/` (Queue)
-* [x] Fila Simples (`fila_simples.cpp` - *especificar se baseada em array ou lista*)
-* [x] Deque (Double-Ended Queue) (`Deque.cpp`)
+* [✅] Fila Simples (`fila_simples.cpp` - *especificar se baseada em array ou lista*)
+* [✅] Deque (Double-Ended Queue) (`Deque.cpp`)
 * [ ] Fila de Prioridade (Heap)
 
 ### `C++/Árvores/`
-* [x] Árvore Binária (`Arvore_Binaria.cpp`)
-* [x] Árvore Binária de Busca (BST) (`Arvore_Busc.cpp`)
-* [x] Árvore AVL (`Arvore_AVL.cpp`)
-* [x] Árvore Rubro-Negra (Red-Black Tree) (`Arvore_RN.cpp`)
+* [✅] Árvore Binária (`Arvore_Binaria.cpp`)
+* [✅] Árvore Binária de Busca (BST) (`Arvore_Busc.cpp`)
+* [✅] Árvore AVL (`Arvore_AVL.cpp`)
+* [✅] Árvore Rubro-Negra (Red-Black Tree) (`Arvore_RN.cpp`)
 * [ ] Árvore B / B+
 * [ ] Heap (Min-Heap, Max-Heap)
 
 ### `C++/Grafos/`
-* [x] Implementação de Grafo (`Grafo.cpp` - *especificar representação: Matriz ou Lista de Adjacência*)
+* [✅] Implementação de Grafo (`Grafo.cpp` - *especificar representação: Matriz ou Lista de Adjacência*)
     * [ ] Representação por Matriz de Adjacência
     * [ ] Representação por Lista de Adjacência
 * **Algoritmos:**
@@ -86,17 +88,17 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
     * [ ] Kruskal / Prim (Árvore Geradora Mínima)
 
 ### `C++/Busca/` (Algoritmos de Busca)
-* [x] Busca Sequencial (Linear) (`busca_sequencial.cpp`)
-* [x] Busca Binária (para dados ordenados) (`busca_binaria.cpp`)
+* [✅] Busca Sequencial (Linear) (`busca_sequencial.cpp`)
+* [✅] Busca Binária (para dados ordenados) (`busca_binaria.cpp`)
 * [ ] Busca Ternária
 * [ ] Busca por Interpolação
 
 ### `C++/Ordenação/` (Algoritmos de Ordenação)
 * **Algoritmos Básicos:**
-    * [x] Bubble Sort (`bubble_Sort.cpp`)
+    * [✅] Bubble Sort (`bubble_Sort.cpp`)
     * [ ] Selection Sort
-    * [x] Insertion Sort (`Insertion_Sort.cpp`)
-    * [x] Método de Ordenação Direta (`Ordenação Direta.cpp`)
+    * [✅] Insertion Sort (`Insertion_Sort.cpp`)
+    * [✅] Método de Ordenação Direta (`Ordenação Direta.cpp`)
 * **Algoritmos Eficientes (N log N):**
     * [ ] Merge Sort
     * [ ] Quick Sort
@@ -107,9 +109,9 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
     * [ ] Bucket Sort
 
 ### `C++/Intro/` (Conteúdo de Apoio e Exemplos)
-* [x] Operações com Vetores (`Vetores.cpp`)
-* [x] Multiplicação de Matrizes (`Multi_Matriz.cpp`)
-* [x] Transposição de Matrizes (`Transpor_Matriz.cpp`)
+* [✅] Operações com Vetores (`Vetores.cpp`)
+* [✅] Multiplicação de Matrizes (`Multi_Matriz.cpp`)
+* [✅] Transposição de Matrizes (`Transpor_Matriz.cpp`)
 * [ ] Outros conceitos fundamentais de C++
 
 ## ⚙️ Como Usar e Compilar (Exemplo Genérico para C++)
@@ -117,9 +119,9 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
 1.  **Clone o repositório:**
     ```bash
     git clone [https://github.com/Felipe-teodoro05/data-structures-C-Python.git](https://github.com/Felipe-teodoro05/data-structures-C-Python.git)
-    cd NOME-DO-REPOSITORIO/C++/NomeDaPastaDoTopico
+    cd NOME-DO-REPOSITORIO/C/NomeDaPastaDoTopico
     ```
-    
+
 2.  **Compile os arquivos:**
     Você precisará de um compilador C++ (como G++ ou Clang++).
     Exemplo para compilar um arquivo `.cpp` (que pode ter uma função `main` para teste):
@@ -166,7 +168,6 @@ Embora este seja um repositório de estudo pessoal, se você tiver sugestões, c
 
 Criado com dedicação por **Felipe Teodoro Bandeira**.
 
-➡️ Conecte-se comigo: [Seu LinkedIn](https://www.linkedin.com/in/felipe-teodoro-bandeira/) | [Seu GitHub](https://github.com/Felipe-teodoro05)
-```
+➡️ Conecte-se comigo: [LinkedIn](https://www.linkedin.com/in/felipe-teodoro-bandeira/) | [GitHub](https://github.com/Felipe-teodoro05)
 
 ---
