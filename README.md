@@ -78,7 +78,7 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
 * [ ] Heap (Min-Heap, Max-Heap)
 
 ### `C++/Grafos/`
-* [✅] Implementação de Grafo (`Grafo.cpp` - *especificar representação: Matriz ou Lista de Adjacência*)
+* [✅] Implementação de Grafo (`Grafo.cpp`)
     * [ ] Representação por Matriz de Adjacência
     * [ ] Representação por Lista de Adjacência
 * **Algoritmos:**
