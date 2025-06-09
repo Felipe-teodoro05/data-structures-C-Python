@@ -27,3 +27,6 @@ ENV/
 pip-freeze.txt
 *.egg-info/
 .ipynb_checkpoints
+
+# PDF de conteúdo 
+Estruturas_de_Dados.pdf
