@@ -145,9 +145,9 @@ Abaixo está o status atual das implementações e tópicos abordados na pasta `
 ## 🐍 Implementações em Python (Pasta `/Python`)
 
 *(Planejado para o futuro)*
-* [ ] Lista Encadeada Simples
-* [ ] Pilha
-* [ ] Fila
+* [x] Lista Encadeada Simples
+* [x] Pilha
+* [x] Fila
 * [ ] Árvore Binária de Busca (BST)
 * [ ] Tabela Hash
 * [ ] Grafo
